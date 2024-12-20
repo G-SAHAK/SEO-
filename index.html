@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Հիմնական HTML մետատվյալներ SEO-ի համար -->
+    <meta charset="UTF-8"> <!-- Նշում է կոդավորման տիպը պատշաճ ցուցադրման համար -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Հանգստացնում է հարմարեցված դիզայնը տարբեր սարքերում -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Համատեղելիություն հին IE տարբերակների հետ -->
+    <meta name="language" content="en"> <!-- Նշում է էջի լեզուն -->
+    <meta name="geo.region" content="US"> <!-- Նշում է կայքի հետ կապված աշխարհագրական տարածաշրջանը -->
+
+
+    <title>Mini-Site SEO Optimized - Example</title>
+
+    <!-- Մետա նկարագրություն - Ամփոփում է էջի բովանդակությունը որոնիչների և օգտատերերի համար։ -->
+    <meta name="description" content="Discover how to build an SEO-optimized mini-site with technical and on-page SEO best practices. Boost your rankings today!">
+
+    <!-- Կանոնական պիտակ - Նշում է էջի նախընտրելի տարբերակը՝ կրկնօրինակ բովանդակության խնդիրներից խուսափելու համար։ -->
+    <link rel="canonical" href="https://example.com/mini-site-seo">
+
+    <!-- Open Graph մետատվյալներ - Կառավարում է, թե ինչպես է էջը հայտնվում սոցիալական մեդիայում կիսվելու դեպքում։ -->
+    <meta property="og:title" content="Mini-Site SEO Optimized - Example">
+    <meta property="og:description" content="Discover how to build an SEO-optimized mini-site with technical and on-page SEO best practices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/mini-site-seo">
+    <meta property="og:image" content="https://example.com/images/seo-optimized-site.png"> <!-- Ներառեք տեսողականորեն գրավիչ պատկեր -->
+
+    <!-- Ֆավիկոն և այլընտրանքային պատկերակներ - Բարելավում են բրենդի տեսանելիությունը և օգտատիրոջ փորձը։ -->
+    <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://example.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://example.com/favicon-16x16.png">
+
+    <!-- Ռոբոտների մետա պիտակ - Վերահսկում է, թե ինչպես են որոնիչները սողոսկում և ինդեքսավորում էջը։ -->
+    <meta name="robots" content="index, follow">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Կանխաբեռնված հատուկ տառատեսակ - Բարելավում է էջի բեռնման ընկալվող արագությունը՝ առաջնահերթություն տալով տառատեսակի ներբեռնմանը։ -->
+    <link rel="preload" href="https://example.com/fonts/custom-font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <!-- Կառուցվածքային տվյալներ (JSON-LD) - Տրամադրում է կոնտեքստ որոնիչներին էջի բովանդակության վերաբերյալ։ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Website",
+        "url": "https://example.com/mini-site-seo",
+        "name": "Mini-Site SEO Optimized",
+        "description": "Discover how to build an SEO-optimized mini-site with technical and on-page SEO best practices.",
+        "author": {
+            "@type": "Person",
+            "name": "John Doe"
+        },
+        "potentialAction": {  /* Միացնում է Google որոնման արդյունքներում կայքի հղման որոնման տուփը */
+            "@type": "SearchAction",
+            "target": "https://example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation"> 
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Our SEO Optimized Mini-Site</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2> 
+            <p>Our mini-site demonstrates best practices for SEO, including technical, on-page, and off-page optimization techniques. Learn how to enhance your website’s visibility with proven strategies.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>SEO Consultation</li>
+                <li>Web Development</li>
+                <li>Content Creation</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="https://example.com/contact" method="post" aria-label="Contact form"> 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mini-Site SEO Optimized. All Rights Reserved.</p>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="https://example.com/sitemap.xml" title="Sitemap">Sitemap</a></li> 
+            <li><a href="https://example.com/privacy-policy" title="Privacy Policy">Privacy Policy</a></li> 
+            <li><a href="https://example.com/terms" title="Terms of Service">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
